@@ -1,0 +1,3 @@
+k-fold cv divides the data into k-segements, takes k-1 segments for training at a time and, validates on the left segment.
+Clearly, it makes k-models. From these k-models we check their scores and average out the error functions received to get a good model.
+k=10 is recommended to avoid overfitting and under-fitting.
